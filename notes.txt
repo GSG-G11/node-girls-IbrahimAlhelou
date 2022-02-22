@@ -1,0 +1,6 @@
+*my notes for the node girls ws*
+
+-The header contains info about the response that we send along with, and every response has
+    a header we add info to the header using `response.writeHead()` which takes as parameter
+                                                    -status
+                                                    -header object({"Content-Type": "text/html"})
